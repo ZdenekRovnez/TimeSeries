@@ -1,9 +1,12 @@
 # %%
 
-# import sys
-# sys.path.append(r"C:\020_Projects\_library")
+DEBUG = False
 
-#from pythonista.utils import explore
+if DEBUG:
+
+    import sys
+    sys.path.append(r"C:\020_Projects\_library")
+    #from pythonista.utils import explore
 
 import numpy as np
 import pandas as pd
@@ -106,4 +109,3 @@ if DEBUG:
     forecast = m.predict(future)
     fig1 = m.plot(forecast)
     plt.show()
-
