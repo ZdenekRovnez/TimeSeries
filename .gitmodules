@@ -1,0 +1,3 @@
+[submodule "pyzden"]
+	path = pyzden
+	url = https://github.com/ZdenekRovnez/pyzden.git
